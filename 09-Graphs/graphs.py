@@ -21,7 +21,7 @@
 
 class Graph:
     def __init__(self):
-        self.graph = {}
+        self.adj_list = {}
 
     def add_vertex(self):
         pass
@@ -30,4 +30,7 @@ class Graph:
         pass
 
     def remove_edge(self):
+        pass
+
+    def remove_vertex(self):
         pass
